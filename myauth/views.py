@@ -47,7 +47,7 @@ class RegisterView(View):
 
 
 class CustomPasswordChangeView(PasswordChangeView):
-    template_name = 'accounts/change_password.html'
+    template_name = 'accounts/password_change.html'
     success_url = reverse_lazy('home')
 
     def form_valid(self, form):

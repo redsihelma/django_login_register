@@ -7,6 +7,7 @@ from django.urls import reverse_lazy
 from django.contrib import messages
 
 from .forms import SignUpForm
+from myauth import urls
 
 
 class CustomLoginView(LoginView):

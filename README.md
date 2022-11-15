@@ -8,4 +8,4 @@
 ```
 pip install -r requirements.txt
 ```
-# Repository-Baru
+di myauth.urls di bagian login jangan di kasih 'login/' tapi di kosongkan seperti ''
